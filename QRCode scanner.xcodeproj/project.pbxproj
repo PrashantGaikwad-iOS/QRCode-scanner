@@ -12,6 +12,7 @@
 		8902282F21E4AB2C0037EE31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8902282D21E4AB2C0037EE31 /* Main.storyboard */; };
 		8902283121E4AB2F0037EE31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8902283021E4AB2F0037EE31 /* Assets.xcassets */; };
 		8902283421E4AB2F0037EE31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8902283221E4AB2F0037EE31 /* LaunchScreen.storyboard */; };
+		8902283C21E4ABF60037EE31 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8902283B21E4ABF60037EE31 /* ScannerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8902283021E4AB2F0037EE31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8902283321E4AB2F0037EE31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8902283521E4AB2F0037EE31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8902283B21E4ABF60037EE31 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				8902282921E4AB2C0037EE31 /* AppDelegate.swift */,
 				8902282B21E4AB2C0037EE31 /* ViewController.swift */,
+				8902283B21E4ABF60037EE31 /* ScannerViewController.swift */,
 				8902282D21E4AB2C0037EE31 /* Main.storyboard */,
 				8902283021E4AB2F0037EE31 /* Assets.xcassets */,
 				8902283221E4AB2F0037EE31 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8902282C21E4AB2C0037EE31 /* ViewController.swift in Sources */,
+				8902283C21E4ABF60037EE31 /* ScannerViewController.swift in Sources */,
 				8902282A21E4AB2C0037EE31 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +287,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H28X75MLUY;
 				INFOPLIST_FILE = "QRCode scanner/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +306,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H28X75MLUY;
 				INFOPLIST_FILE = "QRCode scanner/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
